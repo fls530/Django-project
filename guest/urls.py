@@ -24,4 +24,6 @@ urlpatterns = [
     path('event_manage/', views.index),
     path('accounts/login/', views.index),
     path('', views.index)
+    # 注释
+
 ]

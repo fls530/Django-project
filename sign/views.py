@@ -27,5 +27,6 @@ def login_action(request):
 # 发布会管理
 @login_required
 def event_manage(request):
+    # 注释
     username = request.session.get('user', '')
     return render(request, "event_manage.html", {'user': username})

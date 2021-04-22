@@ -72,19 +72,19 @@ WSGI_APPLICATION = 'guest.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'HOST': '192.168.85.128',
-        'PORT': '3306',
-        'NAME': 'guest',
-        'USER': 'root',
-        'PASSWORD': '123456',
-        'OPTIONS': {
-            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
-        },
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'HOST': '192.168.85.128',
+#         'PORT': '3306',
+#         'NAME': 'guest',
+#         'USER': 'root',
+#         'PASSWORD': '123456',
+#         'OPTIONS': {
+#             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+#         },
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
